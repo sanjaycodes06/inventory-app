@@ -24,8 +24,8 @@ export default function DashboardPage() {
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         <StatCard label="SKU count" value="128" hint="Across 12 categories" trend="+4 this week" />
         <StatCard label="Low-stock items" value="7" hint="Below reorder threshold" />
-        <StatCard label="Open invoices" value="14" hint="Awaiting payment" />
-        <StatCard label="Revenue (30d)" value="$48.2k" hint="Posted + draft" trend="On track" />
+        <StatCard label="Open invoices" value="0"int="Awaiting payment" />
+        <StatCard label="Revenue (30d)" value="$0" hint="Posted + draft" trend="On track" />
       </div>
       <div className="mt-8 grid gap-6 lg:grid-cols-3">
         <div className="rounded-xl border border-white/10 bg-slate-900/50 p-6 shadow-lg shadow-black/20 backdrop-blur-sm lg:col-span-2">
